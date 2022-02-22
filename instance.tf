@@ -1,4 +1,4 @@
-resource "google_compute_instance" "terraform" {
+resource "google_compute_instance" "guts" {
   project      = "guts-341516"
   name         = "terraform"
   machine_type = "n1-standard-1"
